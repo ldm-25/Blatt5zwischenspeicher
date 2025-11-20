@@ -11,16 +11,7 @@ public class H3_main
 	
 	input = 27633;
 	
-			for(j=0; j<2; j++)
-				{
-					for(i=0; i<15; i++)
-						{
-							System.out.print(einheiten[j][i]);
-							System.out.print(" ");
-		
-						}
-					System.out.println(" ");
-				}
+			
 	
 	for(i=0; i<15; i++)
 	{
@@ -29,18 +20,6 @@ public class H3_main
 			input-=einheiten[0][i];
 			einheiten[1][i]+=1;
 		}
-	}
-	
-	
-	for(j=0; j<2; j++)
-	{
-		for(i=0; i<15; i++)
-			{
-				System.out.print(einheiten[j][i]);
-				System.out.print(" ");
-
-			}
-		System.out.println(" ");
 	}
 	
 	
