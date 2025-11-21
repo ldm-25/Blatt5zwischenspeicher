@@ -9,18 +9,6 @@ public class H1_main
 	int i, y;
 	int [] myArray = {3,2,5,6};
 	
-
-	
-	for(i=0; i<myArray.length; i++)
-	{
-		System.out.println(myArray[i]);
-		
-	}
-	
-	
-	
-	
-	
 	
 	
 	for(i=0; i<myArray.length/2; i++)
@@ -32,16 +20,6 @@ public class H1_main
 		
 		
 	}
-	
-	
-	
-	
-	for(i=0; i<myArray.length; i++)
-	{
-		System.out.println(myArray[i]);
-		
-	}
-	
 	
 	}	
 	
